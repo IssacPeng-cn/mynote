@@ -79,3 +79,7 @@ getCurrentSession 事务是 Spring 控制的，并且不需要手动关闭，而
 ### 12.hibernate 实体类必须要有无参构造函数吗？为什么
 
 hibernate 中每个实体类必须提供一个无参构造函数，因为 hibernate 框架要使用reflection api，通过调用 ClassnewInstance() 来创建实体类的实例，如果没有无参的构造函数就会抛出异常。
+
+### 13.jpa 和 hibernate 有什么区别？
+
+jpa 全称 Java Persistence API，是 Java 持久化接口规范，hibernate 属于 jpa 的具体实现。

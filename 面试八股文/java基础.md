@@ -137,7 +137,7 @@ false
 
 ### 6.String 属于基础的数据类型吗？
 
-String 不属于基础类型，基础类型有 8 种：byte、boolean、char、short、int、float、long、double，而 String 属于对象。
+String 不属于基础类型，基础类型有 8 种：byte、short、int、long、float、double、boolean、char，而 String 属于对象。
 
 ### 7.Java 中操作字符串都有哪些类？它们之间有什么区别？
 
